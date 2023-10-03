@@ -43,7 +43,7 @@
 &trans     &kp PG_UP   &kp UP   &kp PG_DN &trans  &trans                                           &trans    &trans    &trans    &kp LBKT    &kp RBKT &kp trans
 &trans     &kp LEFT    &kp DOWN &kp RIGHT &trans  &trans                                           &trans    &trans    &trans    &trans    &trans     &trans
 &trans     &trans   &trans    &trans   &trans  &trans    &trans                          &trans &trans    &trans    &trans    &trans    &kp BSLH    &kp DELETE
-                                       &trans  &trans    &trans   &trans    &kp RCTRL    &kp GRAVE &trans    &trans
+                                       &trans  &trans    &trans   &trans    &trans    &kp GRAVE &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
