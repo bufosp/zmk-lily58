@@ -61,7 +61,7 @@
 &trans      &kp C_PREVIOUS        &kp C_PLAY_PAUSE         &kp C_NEXT        &trans  &trans                             &kp N6            &kp N7            &kp N8               &kp N9   &kp N0    &kp F11
 &trans      &kp C_VOLUME_DOWN     &kp C_MUTE               &kp C_VOLUME_UP   &trans  &trans                             &trans            &kp LEFT          &kp DOWN             &kp UP   &kp RIGHT &kp F12
 &kp F7      &trans &trans &trans  &trans                   &trans      &trans    &trans      &trans       &trans        &kp EQUAL &kp LBKT   &kp BSLH  &trans
-                              &kp RCTRL F10  &kp RCTRL F11  &kp RCTRL F12  &trans   &trans    &trans      &trans    &trans
+                              &trans  &trans  &trans  &trans   &trans    &trans      &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
