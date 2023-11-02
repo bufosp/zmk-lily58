@@ -76,6 +76,8 @@
 &kp F7      &trans &trans &trans  &trans                   &trans      &trans    &trans      &trans       &trans        &trans           &trans  &trans  &trans
                               &kp LC(F10)  &kp LC(F11)  &kp LC(F12)  &trans   &trans    &trans      &trans    &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
         top_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
