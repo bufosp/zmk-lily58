@@ -27,9 +27,10 @@
         slack: slack {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_wait_time 50>
+                , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp L &kp A &kp C &kp K &kp RIGHT &kp ENTER>
                 ;
         };
@@ -40,9 +41,10 @@
         spotify: spotify {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_wait_time 50>
+                , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp ENTER>
                 ;
         };
@@ -53,9 +55,10 @@
         soundswitch: soundswitch {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_wait_time 50>
+                , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp O &kp U &kp N &kp D &kp S &kp W &kp I &kp T &kp C &kp H &kp ENTER>
                 ;
         };
