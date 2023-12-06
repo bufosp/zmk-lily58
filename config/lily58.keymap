@@ -29,7 +29,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_tap &kp s &kp l &kp a &kp c &kp k >
+                , <&macro_tap &kp S &kp L &kp A &kp C &kp K >
                 , <&macro_tap &kp ENTER>
                 ;
         };
@@ -42,7 +42,7 @@
             #binding-cells = <1>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_tap &kp s &kp p &kp o &kp t &kp i &kp f &kp y>
+                , <&macro_tap &kp S &kp P &kp O &kp T &kp I &kp F &kp Y>
                 , <&macro_tap &kp ENTER>
                 ;
         };
@@ -55,7 +55,7 @@
             #binding-cells = <2>;
             bindings
                 = <&macro_tap &kp LGUI>
-                , <&macro_tap &kp s &kp o &kp u &kp n &kp d &kp s &kp w &kp i &kp t &kp c &kp h>
+                , <&macro_tap &kp S &kp O &kp U &kp N &kp D &kp S &kp W &kp I &kp T &kp F &kp Y>
                 , <&macro_tap &kp ENTER>
                 ;
         };
