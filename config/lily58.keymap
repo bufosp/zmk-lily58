@@ -30,6 +30,7 @@
             wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
+                , <&macro_wait_time 200>
                 , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp L &kp A &kp C &kp K &kp RIGHT &kp ENTER>
                 ;
@@ -44,6 +45,7 @@
             wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
+                , <&macro_wait_time 200>
                 , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp ENTER>
                 ;
@@ -58,6 +60,7 @@
             wait-ms = <20>;
             bindings
                 = <&macro_tap &kp LGUI>
+                , <&macro_wait_time 200>
                 , <&macro_wait_time 0>
                 , <&macro_tap &kp SPACE &kp S &kp O &kp U &kp N &kp D &kp S &kp W &kp I &kp T &kp C &kp H &kp ENTER>
                 ;
@@ -95,9 +98,9 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &kp F12    &kp F1      &kp F2   &kp F3    &kp F4  &kp F5                                           &kp F6    &kp F7    &kp F8    &kp F9    &kp F10    &kp F11
-&trans     &kp PG_UP   &kp UP   &kp PG_DN &trans  &trans                                           &trans    &trans    &trans    &kp LBKT    &kp RBKT &trans
-&trans     &kp LEFT    &kp DOWN &kp RIGHT &trans  &trans                                           &trans    &trans    &trans    &trans    &trans     &trans
-&trans     &trans   &trans    &trans   &trans  &trans    &trans                          &trans &trans    &trans    &trans    &trans    &kp BSLH    &kp DELETE
+&trans     &kp PG_UP   &kp UP   &kp PG_DN &trans  &trans                                           &trans    &trans    &trans    &kp LBKT    &kp RBKT &kp PG_UP
+&trans     &kp LEFT    &kp DOWN &kp RIGHT &trans  &trans                                           &trans    &trans    &trans    &trans    &kp UP     &kp PG_DOWN
+&trans     &trans   &trans    &trans   &trans  &trans    &trans                          &trans &trans    &trans    &trans    &kp LEFT    &kp DOWN    &kp RIGHT
                                        &trans  &trans    &trans   &trans    &trans    &kp GRAVE &trans    &trans
             >;
 
